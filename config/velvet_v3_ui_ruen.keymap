@@ -112,10 +112,10 @@
 
         en {
             bindings = <
-&kp ESC    &kp Q  &kp W       &kp E         &kp R            &kp T                                 &kp Y        &kp U  &kp I      &kp O    &kp P         &trans
-&kp TAB    &kp A  &kp S       &kp D         &kp F            &kp G                                 &kp H        &kp J  &kp K      &kp L    &kp SEMI      &trans
-&kp LSHFT  &kp Z  &kp X       &kp C         &kp V            &kp B                                 &kp N        &kp M  &kp COMMA  &kp DOT  &kp LEFT_ALT  &trans
-                  &kp KP_DOT  &kp KP_COMMA  &mt LCTRL SPACE  &mo 3  &kp LEFT_WIN    &kp BACKSPACE  &lt 2 ENTER  &none  &trans     &trans
+&kp ESC    &kp Q  &kp W       &kp E         &kp R      &kp T                                       &kp Y        &kp U  &kp I         &kp O         &kp P       &trans
+&kp TAB    &kp A  &kp S       &kp D         &kp F      &kp G                                       &kp H        &kp J  &kp K         &kp L         &trans      &trans
+&kp LSHFT  &kp Z  &kp X       &kp C         &kp V      &kp B                                       &kp N        &kp M  &trans        &trans        &kp KP_DOT  &kp LEFT_ALT
+                  &kp ESCAPE  &kp CAPSLOCK  &kp LCTRL  &lt 3 BACKSPACE  &kp LEFT_WIN    &kp SPACE  &lt 2 ENTER  &none  &kp QUESTION  &kp KP_COMMA
             >;
 
             display-name = "Base";
@@ -124,14 +124,14 @@
         ru {
             display-name = "Ru";
             bindings = <
-&kp ESC    &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE                                 &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
-&kp TAB    &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE                                 &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O          &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_E
-&kp LSHFT  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I                                  &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp LEFT_ALT         &trans
-                                    &kp RU_DOT            &kp RU_COMMA        &mt LCTRL SPACE     &mo 4               &kp LEFT_WIN    &kp BACKSPACE  &mo 2               &none                      &trans               &trans
+&kp ESC    &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE                             &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
+&kp TAB    &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE                             &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O          &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_E
+&kp LSHFT  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I                              &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp RU_DOT           &kp LEFT_ALT
+                                    &kp ESCAPE            &kp CAPSLOCK        &kp LCTRL           &lt 4 BACKSPACE     &kp LEFT_WIN    &kp SPACE  &mo 2               &none                      &kp RU_QUESTION      &kp RU_COMMA
             >;
         };
 
-        nav {
+        arrow {
             bindings = <
 &kp F1          &kp F2        &kp F3        &kp F4        &kp F5           &kp F6                                       &kp F7           &kp F8             &kp F9        &kp F10          &kp F11        &kp F12
 &kp LEFT_ALT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5                                 &kp LEFT_ARROW   &kp DOWN_ARROW     &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &kp HOME
@@ -163,7 +163,7 @@
             >;
         };
 
-        adj {
+        f12symbol {
             bindings = <
 &trans  &none  &kp F1  &kp F2   &kp F3   &kp F4                   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
 &none   &none  &kp F5  &kp F6   &kp F7   &kp F8                   &trans        &kp C_VOL_DN  &kp K_MUTE    &kp C_VOL_UP  &trans        &trans
@@ -205,6 +205,15 @@
             >;
 
             display-name = "Sniper";
+        };
+
+        layer_9 {
+            bindings = <
+&sys_reset  &trans             &trans           &trans                 &kp GRAVE  &kp PIPE              &kp RU_NUMERO  &kp LESS_THAN    &kp GREATER_THAN  &trans          &trans       &trans
+&trans      &kp DOUBLE_QUOTES  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LBKT   &kp FSLH              &kp COLON      &kp STAR         &kp MINUS         &kp UNDERSCORE  &kp HASH     &trans
+&trans      &kp SINGLE_QUOTE   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RBKT   &kp BSLH              &kp SEMI       &kp EXCLAMATION  &kp PLUS          &kp EQUAL       &kp AT_SIGN  &trans
+                               &kp PERCENT      &kp DOLLAR             &kp        &kp       &kp    &kp  &kp            &trans           &kp AMPERSAND     &kp CARET
+            >;
         };
     };
 };
