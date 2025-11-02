@@ -157,9 +157,9 @@
             display-name = "Navigation";
         };
 
-        sym_en {
+        sym_en1 {
             bindings = <
-&trans         &kp DLLR          &kp LEFT_BRACE        &kp HASH      &kp RIGHT_BRACE        &kp EXCL                    &kp CARET  &kp DQT    &kp SQT    &kp GRAVE  &kp PRCNT  &trans
+&trans         &kp DLLR          &kp LEFT_BRACE        &kp HASH      &kp RIGHT_BRACE        &kp PIPE                    &kp CARET  &kp DQT    &kp SQT    &kp GRAVE  &kp PRCNT  &trans
 &trans         &kp TILDE         &kp LEFT_BRACKET      &kp STAR      &kp RIGHT_BRACKET      &kp PLUS                    &kp AT     &kp MINUS  &kp UNDER  &kp EQUAL  &kp COLON  &trans
 &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp QUESTION  &kp RIGHT_PARENTHESIS  &trans                      &kp AMPS   &kp FSLH   &kp PIPE   &kp BSLH   &kp SEMI   &trans
                                  &trans                &trans        &trans                 &mo 5     &trans    &trans  &trans     &trans     &trans     &trans
@@ -168,7 +168,7 @@
             display-name = "Symbols";
         };
 
-        sym_ru {
+        sym_ru2 {
             display-name = "Symbols";
             bindings = <
 &trans         &en DLLR          &en LEFT_BRACE  &en HASH      &en RIGHT_BRACE  &kp EXCL                    &en CARET      &kp RU_DQT  &en SQT         &en GRAVE      &en PRCNT  &trans
@@ -180,10 +180,10 @@
 
         f12symbol {
             bindings = <
-&trans  &trans  &trans  &kp F12  &kp F11  &trans                     &trans        &trans        &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans
-&trans  &kp F1  &kp F2  &kp F3   &kp F4   &kp F5                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4  &trans
-&trans  &kp F6  &kp F7  &kp F8   &kp F9   &kp F10                    &trans        &trans        &trans        &trans          &trans        &trans
-                &trans  &trans   &trans   &trans   &trans    &trans  &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &kp F12  &kp F11  &trans                     &trans        &trans        &bt BT_CLR      &bt BT_CLR_ALL  &trans        &trans
+&trans  &kp F1  &kp F2  &kp F3   &kp F4   &kp F5                     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4  &trans
+&trans  &kp F6  &kp F7  &kp F8   &kp F9   &kp F10                    &trans        &trans        &trans          &trans          &trans        &trans
+                &trans  &trans   &trans   &trans   &trans    &trans  &trans        &trans        &kp KP_NUMLOCK  &kp SCROLLLOCK
             >;
 
             display-name = "Adjust";
@@ -228,6 +228,15 @@
 &trans      &kp DOUBLE_QUOTES  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LBKT   &kp FSLH              &kp COLON      &kp STAR         &kp MINUS         &kp UNDERSCORE  &kp HASH     &trans
 &trans      &kp SINGLE_QUOTE   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RBKT   &kp BSLH              &kp SEMI       &kp EXCLAMATION  &kp PLUS          &kp EQUAL       &kp AT_SIGN  &trans
                                &kp PERCENT      &kp DOLLAR             &kp        &kp       &kp    &kp  &kp            &trans           &kp AMPERSAND     &kp CARET
+            >;
+        };
+
+        layer_10 {
+            bindings = <
+&trans      &trans             &kp PERCENT      &kp QUESTION           &kp GRAVE  &kp PIPE                    &kp RU_NUMERO  &kp LESS_THAN    &kp GREATER_THAN  &kp AMPERSAND   &trans       &trans
+&trans      &kp DOUBLE_QUOTES  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LBKT   &kp FSLH                    &kp COLON      &kp ASTERISK     &kp MINUS         &kp UNDERSCORE  &kp HASH     &trans
+&kp DOLLAR  &kp APOS           &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RBKT   &kp BSLH                    &kp SEMI       &kp EXCLAMATION  &kp PLUS          &kp EQUAL       &kp AT_SIGN  &kp CARET
+                               &trans           &trans                 &trans     &mo 5     &trans    &trans  &trans         &trans           &trans            &trans
             >;
         };
     };
