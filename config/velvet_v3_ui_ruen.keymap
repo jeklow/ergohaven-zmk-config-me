@@ -53,12 +53,12 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <19 20>;
+            key-positions = <19 20 21>;
         };
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <19 20 21>;
+            key-positions = <19 20>;
         };
 
         escape {
@@ -66,14 +66,14 @@
             key-positions = <15 16>;
         };
 
-        languagetoggle {
-            bindings = <&winspace>;
-            key-positions = <16 19>;
-        };
-
         tab {
             bindings = <&kp TAB>;
             key-positions = <14 15 16>;
+        };
+
+        languagetoggle {
+            bindings = <&winspace>;
+            key-positions = <16 19>;
         };
     };
 
@@ -132,18 +132,18 @@
             tap-ms = <30>;
         };
 
-        winspace: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp SPACE>;
-            label = "NEW_MACRO";
-        };
-
         mouseclick: mouseclick {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&mkp MB1>;
             label = "MOUSECLICK";
+        };
+
+        winspace: winspace {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(SPACE)>;
+            label = "WINSPACE";
         };
     };
 
