@@ -157,24 +157,21 @@
             display-name = "Navigation";
         };
 
-        sym_en1 {
+        sym_en {
             bindings = <
-&trans         &kp DLLR          &kp LEFT_BRACE        &kp HASH      &kp RIGHT_BRACE        &kp PIPE                    &kp CARET  &kp DQT    &kp SQT    &kp GRAVE  &kp PRCNT  &trans
-&trans         &kp TILDE         &kp LEFT_BRACKET      &kp STAR      &kp RIGHT_BRACKET      &kp PLUS                    &kp AT     &kp MINUS  &kp UNDER  &kp EQUAL  &kp COLON  &trans
-&kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_PARENTHESIS  &kp QUESTION  &kp RIGHT_PARENTHESIS  &trans                      &kp AMPS   &kp FSLH   &kp PIPE   &kp BSLH   &kp SEMI   &trans
-                                 &trans                &trans        &trans                 &mo 5     &trans    &trans  &trans     &trans     &trans     &trans
+&trans      &trans             &kp PERCENT      &kp QUESTION           &kp GRAVE  &kp PIPE                    &trans     &kp LESS_THAN    &kp GREATER_THAN  &kp AMPERSAND   &trans       &trans
+&trans      &kp DOUBLE_QUOTES  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LBKT   &kp FSLH                    &kp COLON  &kp ASTERISK     &kp MINUS         &kp UNDERSCORE  &kp HASH     &trans
+&kp DOLLAR  &kp APOS           &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RBKT   &kp BSLH                    &kp SEMI   &kp EXCLAMATION  &kp PLUS          &kp EQUAL       &kp AT_SIGN  &kp CARET
+                               &trans           &trans                 &trans     &mo 5     &trans    &trans  &trans     &trans           &trans            &trans
             >;
-
-            display-name = "Symbols";
         };
 
-        sym_ru2 {
-            display-name = "Symbols";
+        sym_ru {
             bindings = <
-&trans         &en DLLR          &en LEFT_BRACE  &en HASH      &en RIGHT_BRACE  &kp EXCL                    &en CARET      &kp RU_DQT  &en SQT         &en GRAVE      &en PRCNT  &trans
-&kp RU_NUMERO  &en TILDE         &en LBKT        &kp STAR      &en RBKT         &kp PLUS                    &en AT         &en MINUS   &kp UNDERSCORE  &kp EQUAL      &kp COLON  &trans
-&en LESS_THAN  &en GREATER_THAN  &kp LPAR        &kp QUESTION  &kp RPAR         &trans                      &en AMPERSAND  &en SLASH   &en PIPE        &en BACKSLASH  &en SEMI   &trans
-                                 &trans          &trans        &trans           &mo 5     &trans    &trans  &trans         &trans      &trans          &trans
+&trans      &trans             &kp PERCENT      &kp QUESTION           &kp GRAVE  &kp PIPE                    &kp RU_NUMERO  &kp LESS_THAN    &kp GREATER_THAN  &kp AMPERSAND   &trans       &trans
+&trans      &kp DOUBLE_QUOTES  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LBKT   &kp FSLH                    &kp COLON      &kp ASTERISK     &kp MINUS         &kp UNDERSCORE  &kp HASH     &trans
+&kp DOLLAR  &kp APOS           &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RBKT   &kp BSLH                    &kp SEMI       &kp EXCLAMATION  &kp PLUS          &kp EQUAL       &kp AT_SIGN  &kp CARET
+                               &trans           &trans                 &trans     &mo 5     &trans    &trans  &trans         &trans           &trans            &trans
             >;
         };
 
@@ -220,24 +217,6 @@
             >;
 
             display-name = "Sniper";
-        };
-
-        layer_9 {
-            bindings = <
-&sys_reset  &trans             &trans           &trans                 &kp GRAVE  &kp PIPE              &kp RU_NUMERO  &kp LESS_THAN    &kp GREATER_THAN  &trans          &trans       &trans
-&trans      &kp DOUBLE_QUOTES  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LBKT   &kp FSLH              &kp COLON      &kp STAR         &kp MINUS         &kp UNDERSCORE  &kp HASH     &trans
-&trans      &kp SINGLE_QUOTE   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RBKT   &kp BSLH              &kp SEMI       &kp EXCLAMATION  &kp PLUS          &kp EQUAL       &kp AT_SIGN  &trans
-                               &kp PERCENT      &kp DOLLAR             &kp        &kp       &kp    &kp  &kp            &trans           &kp AMPERSAND     &kp CARET
-            >;
-        };
-
-        layer_10 {
-            bindings = <
-&trans      &trans             &kp PERCENT      &kp QUESTION           &kp GRAVE  &kp PIPE                    &kp RU_NUMERO  &kp LESS_THAN    &kp GREATER_THAN  &kp AMPERSAND   &trans       &trans
-&trans      &kp DOUBLE_QUOTES  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LBKT   &kp FSLH                    &kp COLON      &kp ASTERISK     &kp MINUS         &kp UNDERSCORE  &kp HASH     &trans
-&kp DOLLAR  &kp APOS           &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RBKT   &kp BSLH                    &kp SEMI       &kp EXCLAMATION  &kp PLUS          &kp EQUAL       &kp AT_SIGN  &kp CARET
-                               &trans           &trans                 &trans     &mo 5     &trans    &trans  &trans         &trans           &trans            &trans
-            >;
         };
     };
 };
