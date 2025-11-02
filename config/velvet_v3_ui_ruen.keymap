@@ -41,13 +41,13 @@
 
         cmben {
             bindings = <&layer_en>;
-            key-positions = <14 21>;
+            key-positions = <>;
             layers = <1>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <15 20>;
+            key-positions = <>;
             layers = <0>;
         };
 
@@ -58,12 +58,12 @@
 
         backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <19 20>;
+            key-positions = <>;
         };
 
         escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <15 16>;
+            key-positions = <>;
         };
 
         tab {
@@ -73,7 +73,7 @@
 
         languagetoggle {
             bindings = <&winspace>;
-            key-positions = <16 19>;
+            key-positions = <>;
         };
     };
 
@@ -152,10 +152,10 @@
 
         en {
             bindings = <
-&mkp MB2   &kp Q  &kp W  &kp E     &kp R            &kp T                                          &kp Y        &kp U  &kp I   &kp O   &kp P    &trans
-&kp TAB    &kp A  &kp S  &kp D     &kp F            &kp G                                          &kp H        &kp J  &kp K   &kp L   &trans   &trans
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V            &kp B                                          &kp N        &kp M  &trans  &trans  &kp DOT  &kp COMMA
-                  &mo 7  &mkp MB1  &mt LCTRL SPACE  &lt 3 BACKSPACE  &kp LEFT_WIN    &kp LEFT_ALT  &lt 2 ENTER  &none  &trans  &trans
+&mkp MB2   &kp Q  &kp W  &kp E     &kp R            &kp T                                                 &kp Y        &kp U  &kp I   &kp O   &kp P    &trans
+&kp TAB    &kp A  &kp S  &kp D     &kp F            &kp G                                                 &kp H        &kp J  &kp K   &kp L   &trans   &trans
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V            &kp B                                                 &kp N        &kp M  &trans  &trans  &kp DOT  &kp COMMA
+                  &mo 7  &mkp MB1  &mt LCTRL ENTER  &lt 3 BACKSPACE  &kp LEFT_WIN    &mt LEFT_ALT ESCAPE  &lt 2 SPACE  &none  &trans  &trans
             >;
 
             display-name = "en";
