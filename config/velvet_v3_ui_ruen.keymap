@@ -64,11 +64,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <15 16>;
         };
-
-        fasdfa {
-            bindings = <&mkp MB1>;
-            key-positions = <39>;
-        };
     };
 
     macros {
