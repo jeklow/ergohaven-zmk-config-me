@@ -148,10 +148,10 @@
 
         arrow {
             bindings = <
-&kp F1          &kp F2        &kp F3        &kp F4        &kp F5           &kp F6                                       &kp F7           &kp F8             &kp F9        &kp F10          &kp F11        &kp F12
-&kp LEFT_ALT    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5                                 &kp LEFT_ARROW   &kp DOWN_ARROW     &kp UP_ARROW  &kp RIGHT_ARROW  &kp PAGE_UP    &kp HOME
-&kp LEFT_SHIFT  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0                                 &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE    &kp PRINTSCREEN  &kp PAGE_DOWN  &kp END
-                              &trans        &trans        &mt LCTRL SPACE  &mo 5         &kp LEFT_WIN    &kp BACKSPACE  &trans           &trans             &trans        &trans
+&trans      &trans        &trans        &kp PRINTSCREEN  &trans           &trans                                               &trans          &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp K_MUTE       &trans  &trans
+&kp DELETE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5                                         &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW       &kp RIGHT_ARROW  &trans  &trans
+&trans      &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8     &kp NUMBER_9     &kp NUMBER_0                                         &kp HOME        &kp PAGE_DOWN    &kp PAGE_UP        &kp END          &trans  &trans
+                          &trans        &trans           &mt LCTRL SPACE  &mo 5         &kp LEFT_WIN    &mt LEFT_ALT CAPSLOCK  &trans          &trans           &trans             &trans
             >;
 
             display-name = "Navigation";
@@ -217,6 +217,15 @@
             >;
 
             display-name = "Sniper";
+        };
+
+        layer_9 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
