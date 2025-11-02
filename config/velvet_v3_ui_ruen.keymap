@@ -133,7 +133,7 @@
                   &trans  &trans  &mt LCTRL SPACE  &lt 3 BACKSPACE  &kp LEFT_WIN    &mt LEFT_ALT CAPSLOCK  &mo 2  &none  &trans  &trans
             >;
 
-            display-name = "Base";
+            display-name = "en";
         };
 
         ru {
@@ -154,7 +154,7 @@
                           &trans        &trans           &mt LCTRL SPACE  &mo 5         &kp LEFT_WIN    &mt LEFT_ALT CAPSLOCK  &trans          &trans           &trans             &trans
             >;
 
-            display-name = "Navigation";
+            display-name = "arrow";
         };
 
         sym_en {
@@ -183,7 +183,7 @@
                 &trans  &trans   &trans   &trans   &trans    &trans  &trans        &trans        &kp KP_NUMLOCK  &kp SCROLLLOCK
             >;
 
-            display-name = "Adjust";
+            display-name = "f_symbol";
         };
 
         mouse {
