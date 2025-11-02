@@ -162,7 +162,7 @@
 &trans      &trans             &kp PERCENT      &kp QUESTION           &kp GRAVE  &kp PIPE                    &trans     &kp LESS_THAN    &kp GREATER_THAN  &kp AMPERSAND   &trans       &trans
 &trans      &kp DOUBLE_QUOTES  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LBKT   &kp FSLH                    &kp COLON  &kp ASTERISK     &kp MINUS         &kp UNDERSCORE  &kp HASH     &trans
 &kp DOLLAR  &kp APOS           &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RBKT   &kp BSLH                    &kp SEMI   &kp EXCLAMATION  &kp PLUS          &kp EQUAL       &kp AT_SIGN  &kp CARET
-                               &trans           &trans                 &trans     &mo 5     &trans    &trans  &trans     &trans           &trans            &trans
+                               &trans           &trans                 &trans     &trans    &trans    &trans  &mo 5      &trans           &trans            &trans
             >;
         };
 
@@ -171,7 +171,7 @@
 &trans      &trans             &kp PERCENT      &kp QUESTION           &kp GRAVE  &kp PIPE                    &kp RU_NUMERO  &kp LESS_THAN    &kp GREATER_THAN  &kp AMPERSAND   &trans       &trans
 &trans      &kp DOUBLE_QUOTES  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LBKT   &kp FSLH                    &kp COLON      &kp ASTERISK     &kp MINUS         &kp UNDERSCORE  &kp HASH     &trans
 &kp DOLLAR  &kp APOS           &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RBKT   &kp BSLH                    &kp SEMI       &kp EXCLAMATION  &kp PLUS          &kp EQUAL       &kp AT_SIGN  &kp CARET
-                               &trans           &trans                 &trans     &mo 5     &trans    &trans  &trans         &trans           &trans            &trans
+                               &trans           &trans                 &trans     &trans    &trans    &trans  &mo 5          &trans           &trans            &trans
             >;
         };
 
