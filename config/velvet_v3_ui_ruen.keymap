@@ -41,14 +41,19 @@
 
         cmben {
             bindings = <&layer_en>;
-            key-positions = <3 4>;
+            key-positions = <20 19>;
             layers = <1>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <3 4>;
+            key-positions = <15 16>;
             layers = <0>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <14 15 16>;
         };
     };
 
