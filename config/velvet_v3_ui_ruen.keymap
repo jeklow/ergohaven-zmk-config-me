@@ -125,19 +125,19 @@
         ru {
             display-name = "Ru";
             bindings = <
-&trans  &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE                    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
-&trans  &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE                    &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O          &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_E
-&trans  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I                     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp RU_CYRILLIC_E    &trans
-                                 &trans                &trans              &trans              &trans              &trans    &trans  &trans              &none                      &trans               &trans
+&trans  &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE                             &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
+&trans  &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE                             &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O          &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_E
+&trans  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I                              &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp RU_CYRILLIC_E    &trans
+                                 &trans                &trans              &lt 9 ENTER         &lt 2 SPACE         &lt 10 A    &kp BACKSPACE  &lt 4 ESC           &none                      &trans               &trans
             >;
         };
 
         nav {
             bindings = <
-&trans  &trans        &trans        &trans          &trans     &trans                    &trans  &trans    &trans    &trans  &trans     &trans
-&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &trans                    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&trans  &trans        &trans        &trans          &trans     &trans                    &trans  &trans    &trans    &trans  &trans     &trans
-                      &trans        &trans          &trans     &trans  &trans    &trans  &mo 5   &trans    &trans    &trans
+&trans  &trans        &trans        &trans          &trans     &trans                    &trans  &kp C_VOLUME_UP  &kp K_MUTE     &kp C_VOLUME_DOWN  &trans     &trans
+&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &trans                    &trans  &kp LEFT         &kp DOWN       &kp UP             &kp RIGHT  &trans
+&trans  &trans        &trans        &trans          &trans     &trans                    &trans  &kp HOME         &kp PAGE_DOWN  &kp PAGE_UP        &kp END    &trans
+                      &trans        &trans          &trans     &trans  &trans    &trans  &mo 5   &trans           &trans         &trans
             >;
 
             display-name = "Navigation";
@@ -211,13 +211,40 @@
         mouse_click {
             bindings = <
 &trans  &trans  &trans    &trans  &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &mkp MB2  &mo 7   &mkp MB1  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mo 8   &mkp MB2  &mo 7   &mkp MB1  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans    &trans  &trans    &trans                    &trans  &trans  &trans  &trans  &trans  &trans
                 &trans    &trans  &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        layer_10 {
+        none_key_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        number_layer {
+            bindings = <
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                    &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans                    &trans  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &kp N0                    &trans  &trans     &trans     &trans    &trans    &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans
+            >;
+        };
+
+        f_key_layer {
+            bindings = <
+&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F12                    &trans  &trans     &trans     &trans    &trans    &trans
+&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11                    &trans  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10                    &trans  &trans     &trans     &trans    &trans    &trans
+                &trans  &trans  &trans  &trans   &trans    &trans  &trans  &trans     &trans     &trans
+            >;
+        };
+
+        layer_13 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
