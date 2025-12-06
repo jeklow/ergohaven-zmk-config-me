@@ -231,6 +231,15 @@
                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
+
+        mouse_layer {
+            bindings = <
+&trans  &trans  &trans    &trans    &trans    &trans                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mo 10  &mkp MB2  &mo 9     &mkp MB1  &mkp MB3                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &mkp MB5  &mkp MB4  &trans                      &trans  &trans  &trans  &trans  &trans  &trans
+                &trans    &trans    &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
 
