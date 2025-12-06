@@ -136,10 +136,10 @@
 
         nav {
             bindings = <
-&trans  &trans        &trans        &trans          &trans       &trans                                &trans           &kp C_VOLUME_UP  &kp K_MUTE     &kp C_VOLUME_DOWN  &trans     &trans
-&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL    &trans                                &kp PRINTSCREEN  &kp LEFT         &kp DOWN       &kp UP             &kp RIGHT  &trans
-&trans  &trans        &trans        &trans          &trans       &trans                                &trans           &kp HOME         &kp PAGE_DOWN  &kp PAGE_UP        &kp END    &trans
-                      &trans        &trans          &lt 0 SPACE  &trans  &lt 4 ENTER    &kp BACKSPACE  &lt 3 ESCAPE     &none            &trans         &trans
+&trans  &trans        &trans        &trans          &trans     &trans                    &trans           &kp C_VOLUME_UP  &kp K_MUTE     &kp C_VOLUME_DOWN  &trans     &trans
+&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &trans                    &kp PRINTSCREEN  &kp LEFT         &kp DOWN       &kp UP             &kp RIGHT  &trans
+&trans  &trans        &trans        &trans          &trans     &trans                    &trans           &kp HOME         &kp PAGE_DOWN  &kp PAGE_UP        &kp END    &trans
+                      &trans        &trans          &trans     &trans  &trans    &trans  &trans           &none            &trans         &trans
             >;
 
             display-name = "Navigation";
@@ -150,7 +150,7 @@
 &trans  &trans  &kp N7  &kp N8  &kp N9  &trans                    &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &trans  &kp N4  &kp N5  &kp N6  &trans                    &trans  &kp LCTRL  &kp LSHFT  &kp LALT  &kp LGUI  &trans
 &trans  &trans  &kp N1  &kp N2  &kp N3  &kp N0                    &trans  &trans     &trans     &trans    &trans    &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans     &trans     &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &none      &trans     &trans
             >;
         };
 
@@ -159,7 +159,7 @@
 &trans  &kp GRAVE          &kp LEFT_BRACE        &kp PIPE  &kp RIGHT_BRACE        &kp PERCENT                        &kp TILDE      &kp LESS_THAN  &kp GREATER_THAN  &kp CARET       &kp DOLLAR     &trans
 &trans  &kp DOUBLE_QUOTES  &kp LBKT              &kp FSLH  &kp RBKT               &kp QUESTION                       &kp COLON      &kp ASTERISK   &kp MINUS         &kp UNDERSCORE  &kp HASH       &trans
 &trans  &kp SINGLE_QUOTE   &kp LEFT_PARENTHESIS  &kp BSLH  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION                    &kp SEMICOLON  &kp AT_SIGN    &kp PLUS          &kp EQUAL       &kp AMPERSAND  &trans
-                           &trans                &trans    &trans                 &trans           &trans    &trans  &trans         &trans         &trans            &trans
+                           &trans                &trans    &trans                 &trans           &trans    &trans  &trans         &none          &trans            &trans
             >;
         };
 
@@ -168,7 +168,7 @@
 &trans         &kp GRAVE          &kp LEFT_BRACE        &kp PIPE  &kp RIGHT_BRACE        &kp PERCENT                        &kp TILDE      &kp LESS_THAN  &kp GREATER_THAN  &kp CARET       &kp DOLLAR     &trans
 &en RU_NUMERO  &kp DOUBLE_QUOTES  &kp LBKT              &kp FSLH  &kp RBKT               &kp QUESTION                       &kp COLON      &kp ASTERISK   &kp MINUS         &kp UNDERSCORE  &en HASH       &trans
 &trans         &kp SINGLE_QUOTE   &kp LEFT_PARENTHESIS  &kp BSLH  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION                    &kp SEMICOLON  &kp AT_SIGN    &kp PLUS          &kp EQUAL       &kp AMPERSAND  &trans
-                                  &trans                &trans    &trans                 &trans           &trans    &trans  &trans         &trans         &trans            &trans
+                                  &trans                &trans    &trans                 &trans           &trans    &trans  &trans         &none          &trans            &trans
             >;
         };
 
@@ -177,7 +177,7 @@
 &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F12                    &bt BT_CLR_ALL  &bt BT_CLR    &out OUT_BLE  &out OUT_USB  &trans        &trans
 &trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11                    &trans          &kp LCTRL     &kp LSHFT     &kp LALT      &kp LGUI      &trans
 &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10                    &trans          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-                &trans  &trans  &trans  &trans   &trans    &trans  &trans          &trans        &trans        &trans
+                &trans  &trans  &trans  &trans   &trans    &trans  &trans          &none         &trans        &trans
             >;
         };
 
