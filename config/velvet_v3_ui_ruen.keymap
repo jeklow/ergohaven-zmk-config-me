@@ -55,12 +55,14 @@
             bindings = <&layer_en>;
             key-positions = <16 15>;
             layers = <1>;
+            timeout-ms = <30>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
             key-positions = <19 20>;
             layers = <0>;
+            timeout-ms = <30>;
         };
     };
 
