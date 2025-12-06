@@ -199,7 +199,7 @@
 &trans  &trans  &trans    &trans    &trans    &trans                      &trans    &trans    &trans    &trans    &trans  &trans
 &trans  &mo 9   &mkp MB2  &mo 8     &mkp MB1  &mkp MB3                    &mkp MB3  &mkp MB1  &mo 8     &mkp MB2  &mo 9   &trans
 &trans  &trans  &trans    &mkp MB5  &mkp MB4  &trans                      &trans    &mkp MB4  &mkp MB5  &trans    &trans  &trans
-                &trans    &trans    &trans    &trans    &trans    &trans  &trans    &none     &trans    &trans
+                &trans    &trans    &trans    &trans    &trans    &trans  &trans    &trans    &trans    &trans
             >;
 
             display-name = "Mouse";
@@ -207,10 +207,10 @@
 
         scroll {
             bindings = <
-&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &mkp MB3  &mkp MB2  &mkp MB1  &trans                    &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans
-&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-                &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans
+&trans  &trans  &trans    &trans  &trans    &trans                    &trans  &trans    &trans  &trans    &trans  &trans
+&trans  &trans  &mkp MB2  &trans  &mkp MB1  &trans                    &trans  &mkp MB1  &trans  &mkp MB2  &trans  &trans
+&trans  &trans  &trans    &trans  &trans    &trans                    &trans  &trans    &trans  &trans    &trans  &trans
+                &trans    &trans  &trans    &trans  &trans    &trans  &trans  &trans    &trans  &trans
             >;
 
             display-name = "Scroll";
@@ -218,10 +218,10 @@
 
         sniper {
             bindings = <
-&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans  &mkp MB3  &mkp MB2  &mkp MB1  &trans                    &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans
-&trans  &trans  &trans    &trans    &trans    &trans                    &trans  &trans    &trans    &trans    &trans  &trans
-                &trans    &trans    &trans    &trans  &trans    &trans  &trans  &trans    &trans    &trans
+&trans  &trans  &trans    &trans  &trans    &trans                    &trans  &trans    &trans  &trans    &trans  &trans
+&trans  &trans  &mkp MB2  &trans  &mkp MB1  &trans                    &trans  &mkp MB1  &trans  &mkp MB2  &trans  &trans
+&trans  &trans  &trans    &trans  &trans    &trans                    &trans  &trans    &trans  &trans    &trans  &trans
+                &trans    &trans  &trans    &trans  &trans    &trans  &trans  &trans    &trans  &trans
             >;
 
             display-name = "Sniper";
