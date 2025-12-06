@@ -166,7 +166,7 @@
         layer_ru_symbol {
             bindings = <
 &trans         &kp GRAVE          &kp LEFT_BRACE        &kp PIPE  &kp RIGHT_BRACE        &kp PERCENT                        &kp TILDE      &kp LESS_THAN  &kp GREATER_THAN  &kp CARET       &kp DOLLAR     &trans
-&en RU_NUMERO  &kp DOUBLE_QUOTES  &kp LBKT              &kp FSLH  &kp RBKT               &kp QUESTION                       &kp COLON      &kp ASTERISK   &kp MINUS         &kp UNDERSCORE  &en HASH       &trans
+&kp RU_NUMERO  &kp DOUBLE_QUOTES  &kp LBKT              &kp FSLH  &kp RBKT               &kp QUESTION                       &kp COLON      &kp ASTERISK   &kp MINUS         &kp UNDERSCORE  &en HASH       &trans
 &trans         &kp SINGLE_QUOTE   &kp LEFT_PARENTHESIS  &kp BSLH  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION                    &kp SEMICOLON  &kp AT_SIGN    &kp PLUS          &kp EQUAL       &kp AMPERSAND  &trans
                                   &trans                &trans    &trans                 &trans           &trans    &trans  &trans         &none          &trans            &trans
             >;
