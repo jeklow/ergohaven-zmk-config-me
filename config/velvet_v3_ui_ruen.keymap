@@ -41,21 +41,15 @@
 
         cmben {
             bindings = <&layer_en>;
-            key-positions = <20 19>;
+            key-positions = <16 15>;
             layers = <2>;
             timeout-ms = <30>;
         };
 
         cmbru {
             bindings = <&layer_ru>;
-            key-positions = <15 16>;
+            key-positions = <19 20>;
             layers = <1>;
-            timeout-ms = <30>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <14 15 16>;
             timeout-ms = <30>;
         };
     };
@@ -142,10 +136,10 @@
 
         nav {
             bindings = <
-&trans  &trans        &trans        &trans          &trans     &trans                    &trans           &kp C_VOLUME_UP  &kp K_MUTE     &kp C_VOLUME_DOWN  &trans     &trans
-&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &trans                    &kp PRINTSCREEN  &kp LEFT         &kp DOWN       &kp UP             &kp RIGHT  &trans
-&trans  &trans        &trans        &trans          &trans     &trans                    &trans           &kp HOME         &kp PAGE_DOWN  &kp PAGE_UP        &kp END    &trans
-                      &trans        &trans          &trans     &trans  &trans    &trans  &trans           &trans           &trans         &trans
+&trans  &trans        &trans        &trans          &trans       &trans                                &trans           &kp C_VOLUME_UP  &kp K_MUTE     &kp C_VOLUME_DOWN  &trans     &trans
+&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL    &trans                                &kp PRINTSCREEN  &kp LEFT         &kp DOWN       &kp UP             &kp RIGHT  &trans
+&trans  &trans        &trans        &trans          &trans       &trans                                &trans           &kp HOME         &kp PAGE_DOWN  &kp PAGE_UP        &kp END    &trans
+                      &trans        &trans          &lt 8 SPACE  &trans  &lt 4 ENTER    &kp BACKSPACE  &lt 3 ESCAPE     &none            &trans         &trans
             >;
 
             display-name = "Navigation";
