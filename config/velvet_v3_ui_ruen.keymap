@@ -181,7 +181,7 @@
             >;
         };
 
-        mouse_layer {
+        mouse {
             bindings = <
 &trans  &trans  &trans    &trans    &trans    &trans                      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &mo 9   &mkp MB2  &mo 8     &mkp MB1  &mkp MB3                    &trans  &trans  &trans  &trans  &trans  &trans
