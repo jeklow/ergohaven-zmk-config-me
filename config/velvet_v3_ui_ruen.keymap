@@ -176,10 +176,10 @@
         sym_ru {
             display-name = "Symbols";
             bindings = <
-&trans         &en GRAVE          &en LEFT_BRACE        &en PIPE       &en RIGHT_BRACE        &kp PERCENT                        &en TILDE      &en LESS_THAN  &en GREATER_THAN  &en CARET       &en DOLLAR     &trans
-&kp RU_NUMERO  &kp DOUBLE_QUOTES  &en LEFT_BRACKET      &kp SLASH      &en RIGHT_BRACKET      &kp QUESTION                       &kp COLON      &kp ASTERISK   &kp MINUS         &kp UNDERSCORE  &en HASH       &trans
-&trans         &en SINGLE_QUOTE   &kp LEFT_PARENTHESIS  &kp BACKSLASH  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION                    &kp SEMICOLON  &en AT_SIGN    &kp PLUS          &kp EQUAL       &en AMPERSAND  &trans
-                                  &trans                &trans         &trans                 &trans           &trans    &trans  &trans         &none          &trans            &trans
+&trans         &en GRAVE             &en LEFT_BRACE        &en PIPE          &en RIGHT_BRACE        &kp PERCENT                        &en TILDE         &en LESS_THAN  &en GREATER_THAN  &en CARET       &en DOLLAR     &trans
+&kp RU_NUMERO  &kp RU_DOUBLE_QUOTES  &en LEFT_BRACKET      &kp RU_SLASH      &en RIGHT_BRACKET      &kp RU_QUESTION                    &kp RU_COLON      &kp ASTERISK   &kp MINUS         &kp UNDERSCORE  &en HASH       &trans
+&trans         &en SINGLE_QUOTE      &kp LEFT_PARENTHESIS  &kp RU_BACKSLASH  &kp RIGHT_PARENTHESIS  &kp EXCLAMATION                    &kp RU_SEMICOLON  &en AT_SIGN    &kp PLUS          &kp EQUAL       &en AMPERSAND  &trans
+                                     &trans                &trans            &trans                 &trans           &trans    &trans  &trans            &none          &trans            &trans
             >;
         };
 
